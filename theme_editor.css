@@ -1,326 +1,336 @@
 body {
-    font-size:18px;
-    }
+font-size:18px;
+}
+
+#footer > div > div > div:nth-child(2) {
+text-align: center;
+}
     
-    #footer > div > div > div:nth-child(2) {
-    text-align: center;
-    }
-        
-    #header > div > div > div > div.col-xs-12.col-sm-6.col-md-3 > a.text-hide {
-    float: right;
-    }
-    
-    
-    .header-inner img {
-    max-width:100px;
-    padding-top: 10px;
-    margin-left: 50px;
-    }
-    
-    .header-text {
-        float: left;
-    }
-    
-    h3.text-box-title {
-    color: #972900;
-    }
-    
-    .widget {
-    border: 1px solid #ddd;
-    }
-    
-    .widget-content {
-    text-align: center;
-    }
-    
-    .fast-find ul li a {
-    box-shadow: none;
-    }
-    
-    #content_inner > section.section.section-default.text-box > div:nth-child(2) {
-    display: none;
-    }
-    
-    h2 {
+#header > div > div > div > div.col-xs-12.col-sm-6.col-md-3 > a.text-hide {
+float: right;
+}
+
+
+.header-inner img {
+max-width:100px;
+padding-top: 10px;
+margin-left: 50px;
+}
+
+.header-text {
+    float: left;
+}
+
+h3.text-box-title {
+color: #972900;
+}
+
+.widget {
+border: 1px solid #ddd;
+}
+
+.widget-content {
+text-align: center;
+}
+
+.fast-find ul li a {
+box-shadow: none;
+}
+
+#content_inner > section.section.section-default.text-box > div:nth-child(2) {
+display: none;
+}
+
+h2 {
+font-weight: bold;
+font-size:20px!important;
+}
+
+h3.text-box-title { 
     font-weight: bold;
-    font-size:20px!important;
-    }
-    
-    h3.text-box-title { 
-        font-weight: bold;
-        font-size:22px!important;
-    }
-    
-    .widget {
-        border: 1px solid #ccc;
-            background-color: #dddd;
-    }
-    
-    /*BREAKING POINT STARTS HERE PLEASE BE AWARE OF IT*/
-    @charset "UTF-8";
-    /* CSS Document 
-    
-    Customizations for CCRI - tested for Landing page only. May or may not be applicable to other pages.
-    
-    Created by Jim Kirby on 2/28/19 -----------*/
-    
-    body {
-        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-        font-size: 1.6rem;
-        margin: 0!important;
-        padding: 0!important;
-        background-image: url("http://www.ccri.edu/images/body-bg.png");
-        background-repeat: repeat-x;
-    }
-    a {
-        color: #00703c;
-        text-decoration: none;
-        border-bottom: dotted 1px #00703c;
-    }
-    #footer a {
-        color: #A7B4AE;
-    }
-    .fast-find ul li a {
-        background-color: #00703c;
-        text-align: center;
-    }
-    
-    .header-inner {
-        background-color: #00703c;
-    }
-    p, ul {
-        font-size: 1.6rem;
-    }
-    .container {
-        width: 100%;
-        max-width: 1366px;
-    }
-    .list-group-item {
-        border-bottom-color: #BBBBBB;
-    }
-    .navBG ul#navLinks li a, .navBG ul#customnav li a {
-        border-left-width: 0;
-        font-size: 2rem;
-    }
-    .opening-content {
-        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-        font-size: 3.6rem;
-        font-weight: 100!important;
-        color: #992800;
-        line-height: 1em;
-        margin: 1em 0;
-        padding: 0;
-        text-align: left;
-    }
-    h3.text-box-title {
-        font-size: 2.8rem !important;
-        color: #A05F01;
-    }
-    
-    tbody p {
-    font-size: inherit!Important;
-    }
-    
-    /*Home Page*/
-    .text-box-one {
-        background-color: #E1E1E1;
-        border: 1px solid #CCC;
-    }
-    
-    .text-box-two {
-        background-color: #E1E1E1;
-        border: 1px solid #CCC;
-    }
-    
-    /*Job Search Page*/
-    
-    .pagination > * {
-        padding: 0.5em;
-        margin-right: 1em;
-        margin-bottom: 1em;
-    }
-    
-    .pagination a {
-        border: 1px solid transparent;
-        transition: all 300ms ease-in;
-    }
-    
-    #search_results {
-        padding: 5px 10px 10px 10px !important;
-        border: 2px solid #CCC;
-        font-size: 0.9em;
-        -moz-border-radius: 8px;
-        -webkit-border-radius: 8px;
-    }
-    
-    
-    #search_results .job-item {
-        clear: right;
-        margin-bottom: 10px;
-        border-bottom: 1px solid #CCC;
-        padding-bottom: 10px;
-    }
-    
-    #search_results a {
-        min-width: auto;
-    }
-    
-    .job-actions a[href^="/bookmarks"]::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f02e" " ";
-    }
-    
-    
-    /*Posting Details Page*/
-    
-    #posting-action-links .btn {
-        min-width: auto;
-    }
-    
-    /*Footer*/
-    
-    
-    /*For social media buttons*/
-    #footer .col-lg-4 {
-        text-align: center;
-    }
-    
-    .social {
-        font-size: 1.75em;
+    font-size:22px!important;
+}
+
+.widget {
+    border: 1px solid #ccc;
+        background-color: #dddd;
+}
+
+/*BREAKING POINT STARTS HERE PLEASE BE AWARE OF IT*/
+@charset "UTF-8";
+/* CSS Document 
+
+Customizations for CCRI - tested for Landing page only. May or may not be applicable to other pages.
+
+Created by Jim Kirby on 2/28/19 -----------*/
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 1.6rem;
+    margin: 0!important;
+    padding: 0!important;
+    background-image: url("http://www.ccri.edu/images/body-bg.png");
+    background-repeat: repeat-x;
+}
+a {
+    color: #00703c;
+    text-decoration: none;
+    border-bottom: dotted 1px #00703c;
+}
+#footer a {
+    color: #A7B4AE;
+}
+.fast-find ul li a {
+    background-color: #00703c;
+    text-align: center;
+}
+
+.header-inner {
+    background-color: #00703c;
+}
+p, ul {
+    font-size: 1.6rem;
+}
+.container {
+    width: 100%;
+    max-width: 1366px;
+}
+.list-group-item {
+    border-bottom-color: #BBBBBB;
+}
+.navBG ul#navLinks li a, .navBG ul#customnav li a {
+    border-left-width: 0;
+    font-size: 2rem;
+}
+.opening-content {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 3.6rem;
+    font-weight: 100!important;
+    color: #992800;
+    line-height: 1em;
+    margin: 1em 0;
+    padding: 0;
+    text-align: left;
+}
+h3.text-box-title {
+    font-size: 2.8rem !important;
+    color: #A05F01;
+}
+
+tbody p {
+font-size: inherit!Important;
+}
+
+/*
+Customization for CCRI HR by Matthew Greco. Latest Update on 12/5/2023
+*/
+
+/*Home Page*/
+.text-box-one {
+    background-color: #E1E1E1;
+    border: 1px solid #CCC;
+}
+
+.text-box-two {
+    background-color: #E1E1E1;
+    border: 1px solid #CCC;
+}
+
+/*Job Search Page*/
+
+.pagination > * {
+    padding: 0.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.pagination a {
+    border: 1px solid transparent;
+    transition: all 300ms ease-in;
+}
+
+#search_results {
+    padding: 5px 10px 10px 10px !important;
+    border: 2px solid #CCC;
+    font-size: 0.9em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+
+#search_results .job-item {
+    clear: right;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+}
+
+#search_results a {
+    min-width: auto;
+}
+
+.job-actions a[href^="/bookmarks"]::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f02e" " ";
+}
+
+
+/*Posting Details Page*/
+
+#posting-action-links .btn {
+    min-width: auto;
+}
+
+/*Footer*/
+
+
+/*For social media buttons*/
+#footer .col-lg-4 {
+    text-align: center;
+}
+
+.social {
+    font-size: 1.75em;
+border-bottom: none;
+}
+
+
+.fa-linkedin-in::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f0e1" " ";
+    padding-left: 1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 1em;
+}
+
+.fa-facebook-f::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f09a" " ";
+    padding-left: 1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 1em;
+}
+
+.fa-youtube::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f16a" " ";
+    padding-left: 1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 1em;
+}
+
+.fa-instagram::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f16d" " ";
+    padding-left: 1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 1em;
+}
+
+.fa-twitter::before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    content: "\f099" " ";
+    padding-left: 1em;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 1em;
+}
+
+/*Job Search*/
+/*remove green dots from below orange icon*/
+.pad-left a {
     border-bottom: none;
-    }
-    
-    
-    .fa-linkedin-in::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f0e1" " ";
-        padding-left: 1em;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-right: 1em;
-    }
-    
-    .fa-facebook-f::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f09a" " ";
-        padding-left: 1em;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-right: 1em;
-    }
-    
-    .fa-youtube::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f16a" " ";
-        padding-left: 1em;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-right: 1em;
-    }
-    
-    .fa-instagram::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f16d" " ";
-        padding-left: 1em;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-right: 1em;
-    }
-    
-    .fa-twitter::before {
-        font-family: FontAwesome;
-        font-weight: normal;
-        font-style: normal;
-        text-decoration: inherit;
-        content: "\f099" " ";
-        padding-left: 1em;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-right: 1em;
-    }
-    
-    /*Job Search*/
-    /*remove green dots from below orange icon*/
-    .pad-left a {
-        border-bottom: none;
-    }
-    
-    /*Job Description Page*/
-    
-    /*create border around all forms globally*/
-    #form_view {
-        padding: 5px 10px 10px 10px !important;
-        border: 2px solid #CCC;
-        -webkit-border-radius: 8px;
-    }
-    
-    /*segment elements within job listing*/
-    #form_view td {
-        border-bottom: 1px solid #CCC;
-    }
-    
-    /*Job Alerts*/
-    
-    /*remove red dots from below asterisks*/
-    form.formtastic abbr {
-        text-decoration: none;
-        border-bottom: none;
-    }
-    
-    /*Search Bar*/
-    
-    /*Underline currently viewed page number*/
-    .pagination em {
-        font-style: normal;
-        text-decoration: underline;
-        text-decoration-color: black;
-    }
-    
-    /*On hover over element, fade green border*/
-    .pagination a:hover {
-        border: solid green 1px;
-        color: green;
-    }
-    
-    /*Update footer links to highlight white when mouse over*/
-    #footer a:hover {
-        text-decoration: none;
-        color: white;
-    }
-    
-    /*Buttons react to mouse over*/
-    .btn:hover {
-        background-color: #CCC !important;
-        color: black !important;
-    }
-    
-    /*Highlights Search Posting Options in green when mouse over*/
-    option:hover {
-        background-color: #90EE90;
-        cursor: pointer;
-    }
-    
-    /*Place Footer at bottom of all pages*/
-    #contentWrapper .mainContent {
-        padding-bottom: 33%;
-    }
-    
-    /*change color of results on job search page*/
-    .mainContent .smaller {
-        color: #595959;
-    }
+}
+
+/*Job Description Page*/
+
+/*create border around all forms globally*/
+#form_view {
+    padding: 5px 10px 10px 10px !important;
+    border: 2px solid #CCC;
+    -webkit-border-radius: 8px;
+}
+
+/*segment elements within job listing*/
+#form_view td {
+    border-bottom: 1px solid #CCC;
+}
+
+/*Job Alerts*/
+
+/*remove red dots from below asterisks*/
+form.formtastic abbr {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+/*Search Bar*/
+
+/*Underline currently viewed page number*/
+.pagination em {
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+/*On hover over element, fade green border*/
+.pagination a:hover {
+    border: solid green 1px;
+    color: green;
+}
+
+/*Update footer links to highlight white when mouse over*/
+#footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*Buttons react to mouse over*/
+.btn:hover {
+    background-color: #CCC !important;
+    color: black !important;
+}
+
+/*Highlights Search Posting Options in green when mouse over*/
+option:hover {
+    background-color: #90EE90;
+    cursor: pointer;
+}
+
+/*Place Footer at bottom of all pages*/
+#contentWrapper .mainContent {
+    padding-bottom: 33%;
+}
+
+/*change color of results on job search page*/
+.mainContent .smaller {
+    color: #595959;
+}
+
+/*Transition full Apply To This Job button on hover*/
+.apply-to-job-form > input:hover {
+    background-color: #CCC !important;
+    color: black;
+}
