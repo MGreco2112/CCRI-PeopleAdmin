@@ -157,6 +157,10 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 12/5/2023
     -webkit-border-radius: 8px;
 }
 
+/*Display brief JD on Search page in Italics*/
+#search_results .job-description {
+    font-style: italic;
+}
 
 #search_results .job-item {
     clear: right;
