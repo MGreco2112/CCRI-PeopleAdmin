@@ -338,3 +338,34 @@ option:hover {
     background-color: #CCC !important;
     color: black;
 }
+
+/*Mobile Responsive Design*/
+@media only screen and (max-width: 768px) {
+    
+    /*Center header Logo*/
+    #header .col-xs-12 {
+        width: 50%;
+    }
+    
+    /*Increase button padding*/
+    .section-default .fast-find {
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    
+    /*Increase image padding*/
+    .row .col-md-6 {
+        padding-bottom: 15%;
+    }
+    
+    /*Negate push for footer on bottom of page*/
+    #contentWrapper .mainContent {
+        padding-bottom: 0%;
+    }
+
+     /*Remove border from job posting due to content overflow*/
+    #content_inner #form_view {
+        border: 0px;
+    }
+
+}
