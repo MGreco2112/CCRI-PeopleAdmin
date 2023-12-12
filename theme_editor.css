@@ -122,7 +122,7 @@ font-size: inherit!Important;
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 12/5/2023
+Customization for CCRI HR by Matthew Greco. Latest Update on 12/12/2023
 */
 
 /*Home Page*/
@@ -368,4 +368,8 @@ option:hover {
         border: 0px;
     }
 
+    /*Set tables to conform to mobile screen*/
+    #form_view table {
+        table-layout: fixed;
+    }
 }
