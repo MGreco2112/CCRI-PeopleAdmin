@@ -357,6 +357,11 @@ option:hover {
     .row .col-md-6 {
         padding-bottom: 15%;
     }
+
+    /*Increase gap between fast find buttons*/
+    .fast-find ul li {
+        margin-bottom: 1.5em;
+    }
     
     /*Negate push for footer on bottom of page*/
     #contentWrapper .mainContent {
