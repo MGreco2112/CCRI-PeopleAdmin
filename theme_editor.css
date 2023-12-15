@@ -398,4 +398,9 @@ option:hover {
         margin-top: 4em;
         margin-bottom: 2em;
     }
+
+    /*Push footer to bottom of page in Bookmarks*/
+    #bookmarks_index #search_results {
+        margin-bottom: 28.3em;
+    }
 }
