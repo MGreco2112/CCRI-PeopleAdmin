@@ -408,4 +408,9 @@ option:hover {
     #documents_index #content_inner {
         margin-bottom: 23.9em;
     }
+
+    /*Increase distance from bottom button and Footer*/
+    #user_applicant_details_edit .btn {
+        margin-bottom: 3em;
+    }
 }
