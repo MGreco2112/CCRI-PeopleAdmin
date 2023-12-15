@@ -392,4 +392,10 @@ option:hover {
     #form_view table td {
       word-wrap: break-word;
     }
+
+    /*Increase button padding when user is logged in*/
+    .formtastic .float_right .btn-default {
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
 }
