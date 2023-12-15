@@ -403,4 +403,9 @@ option:hover {
     #bookmarks_index #search_results {
         margin-bottom: 28.3em;
     }
+
+    /*Push footer to bottom of page in Documents*/
+    #documents_index #content_inner {
+        margin-bottom: 23.9em;
+    }
 }
