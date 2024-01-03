@@ -122,7 +122,7 @@ font-size: inherit!Important;
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 12/15/2023
+Customization for CCRI HR by Matthew Greco. Latest Update on 1/3/2024
 */
 
 /*Home Page*/
@@ -323,11 +323,6 @@ option:hover {
     cursor: pointer;
 }
 
-/*Place Footer at bottom of all pages*/
-#contentWrapper .mainContent {
-    padding-bottom: 33%;
-}
-
 /*change color of results on job search page*/
 .mainContent .smaller {
     color: #595959;
@@ -338,6 +333,33 @@ option:hover {
     background-color: #CCC !important;
     color: black;
 }
+
+
+/*Job Alerts Footer To Bottom*/
+#interest_cards_index #nav {
+    padding-bottom: 23.6em;
+}
+
+/*Bookmarked Postings Footer To Bottom*/
+#bookmarks_index #nav {
+    padding-bottom: 11.8em;
+}
+
+/*Applications Footer To Bottom*/
+#job_applications_index #nav {
+    padding-bottom: 11.8em;
+}
+
+/*Documents Footer To Bottom*/
+#documents_index #nav {
+    padding-bottom: 11.8em;
+}
+
+/*Login Footer to Bottom*/
+#sessions_new #nav {
+  padding-bottom: 23.6em;
+}
+
 
 /*Mobile Responsive Design*/
 @media only screen and (max-width: 768px) {
@@ -412,5 +434,30 @@ option:hover {
     /*Increase distance from bottom button and Footer*/
     #user_applicant_details_edit .btn {
         margin-bottom: 3em;
+    }
+
+        /*Job Alerts Footer*/
+    #interest_cards_index #nav {
+        padding-bottom: 0em;
+    }
+
+    /*Bookmarked Postings Footer*/
+    #bookmarks_index #nav {
+        padding-bottom: 0em;
+    }
+
+    /*Applications Footer*/
+    #job_applications_index #nav {
+        padding-bottom: 0em;
+    }
+
+    /*Documents Footer*/
+    #documents_index #nav {
+        padding-bottom: 0em;
+    }
+
+    /*Login Footer*/
+    #sessions_new #nav {
+      padding-bottom: 0em;
     }
 }
