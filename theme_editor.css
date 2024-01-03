@@ -334,32 +334,33 @@ option:hover {
     color: black;
 }
 
+/*Edit Footer location only above 1200px*/
+@media only screen and (min-width: 1200px) {
+    /*Job Alerts Footer To Bottom*/
+    #interest_cards_index #nav {
+        padding-bottom: 23.6em;
+    }
 
-/*Job Alerts Footer To Bottom*/
-#interest_cards_index #nav {
-    padding-bottom: 23.6em;
+    /*Bookmarked Postings Footer To Bottom*/
+    #bookmarks_index #nav {
+        padding-bottom: 11.8em;
+    }
+
+    /*Applications Footer To Bottom*/
+    #job_applications_index #nav {
+        padding-bottom: 11.8em;
+    }
+
+    /*Documents Footer To Bottom*/
+    #documents_index #nav {
+        padding-bottom: 11.8em;
+    }
+
+    /*Login Footer to Bottom*/
+    #sessions_new #nav {
+        padding-bottom: 23.6em;
+    }
 }
-
-/*Bookmarked Postings Footer To Bottom*/
-#bookmarks_index #nav {
-    padding-bottom: 11.8em;
-}
-
-/*Applications Footer To Bottom*/
-#job_applications_index #nav {
-    padding-bottom: 11.8em;
-}
-
-/*Documents Footer To Bottom*/
-#documents_index #nav {
-    padding-bottom: 11.8em;
-}
-
-/*Login Footer to Bottom*/
-#sessions_new #nav {
-  padding-bottom: 23.6em;
-}
-
 
 /*Mobile Responsive Design*/
 @media only screen and (max-width: 768px) {
