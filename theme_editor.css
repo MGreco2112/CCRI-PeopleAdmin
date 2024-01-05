@@ -139,6 +139,7 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 1/5/2024
 /*Fast Find Hover*/
 .fast-find ul li a:hover {
     color: black;
+    border-bottom: none;
 }
 
 
