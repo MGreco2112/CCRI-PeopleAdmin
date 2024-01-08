@@ -12,7 +12,11 @@
 <script>
 if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
      if (document.getElementById("navLinks").children.length < 8) {
-          document.getElementById("nav").style.paddingBottom = "23.6em";
+	  if (typeof InstallTrigger !== "undefined") {
+               document.getElementById("nav").style.paddingBottom = "23.7em";
+          } else {
+               document.getElementById("nav").style.paddingBottom = "23.6em";
+          }
      } else {
           document.getElementById("nav").style.paddingBottom = "11.8em";
      }
