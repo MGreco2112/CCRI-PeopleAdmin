@@ -8,7 +8,7 @@
 </a>
 
 
-<!--JavaScript for dynamic footer position-->
+<!--JavaScript for dynamic footer position and for button style-->
 <script>
 if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
      if (document.getElementById("navLinks").children.length < 8) {
@@ -20,5 +20,9 @@ if (document.getElementById("interest_cards_index") && window.screen.width >= 12
      } else {
           document.getElementById("nav").style.paddingBottom = "11.8em";
      }
+}
+
+if (document.getElementById("users_edit")) {
+     document.getElementsByName("commit")[0].className = "btn";
 }
 </script>
