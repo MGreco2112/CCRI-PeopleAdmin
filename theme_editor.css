@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 1/8/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 1/9/2024
 */
 
 /*Home Page*/
@@ -386,6 +386,11 @@ option:hover {
 .apply-to-job-form > input:hover {
     background-color: #CCC !important;
     color: black;
+}
+
+/*Job Alerts button placement*/
+#interest_cards_index .float_right span {
+    padding-right: 1.5em;
 }
 
 /*Edit Footer location only above 1200px*/
