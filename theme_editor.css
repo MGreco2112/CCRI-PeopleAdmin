@@ -415,6 +415,11 @@ option:hover {
     #sessions_new #nav {
         padding-bottom: 23.6em;
     }
+
+    /*Documents Upload Footer*/
+    #documents_new #nav {
+        padding-bottom: 11.8em;
+    }
 }
 
 /*Mobile Responsive Design*/
@@ -515,5 +520,10 @@ option:hover {
     /*Login Footer*/
     #sessions_new #nav {
       padding-bottom: 0em;
+    }
+
+    /*Documents Upload Footer*/
+    #documents_new #nav {
+        padding-bottom: 0em;
     }
 }
