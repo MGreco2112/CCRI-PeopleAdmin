@@ -10,7 +10,7 @@
 <!--JavaScript for dynamic footer position-->
 <!--JavaScript for manual Button Classname Assignment-->
 <script>
-if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
+function positionFooter() {
      if (document.getElementById("navLinks").children.length < 8) {
 	  if (typeof InstallTrigger !== "undefined") {
                document.getElementById("nav").style.paddingBottom = "23.7em";
@@ -22,7 +22,16 @@ if (document.getElementById("interest_cards_index") && window.screen.width >= 12
      }
 }
 
+function alterButtonStyle() {
+	document.getElementsByName("commit")[0].className = "btn";
+}
+
+	
+if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
+	positionFooter();
+}
+
 if (document.getElementById("users_edit")) {
-     document.getElementsByName("commit")[0].className = "btn";
+     alterButtonStyle();
 }
 </script>
