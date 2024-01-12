@@ -393,11 +393,6 @@ option:hover {
     padding-right: 1.5em;
 }
 
-/*Pick Documents Page selection in columns*/
-#documents_pick_document_type #content_inner ul {
-    columns: 3;
-}
-
 /*Edit Footer location only above 1200px*/
 @media only screen and (min-width: 1200px) {
 
@@ -419,6 +414,11 @@ option:hover {
     /*Pick Documents Footer To Bottom*/
     #documents_pick_document_type #nav {
         padding-bottom: 11.2em;
+    }
+
+    /*Pick Documents Page selection in columns*/
+    #documents_pick_document_type #content_inner ul {
+        columns: 3;
     }
 
     /*Login Footer to Bottom*/
