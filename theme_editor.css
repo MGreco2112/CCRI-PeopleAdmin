@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 1/9/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 1/12/2024
 */
 
 /*Home Page*/
@@ -393,6 +393,11 @@ option:hover {
     padding-right: 1.5em;
 }
 
+/*Pick Documents Page selection in columns*/
+#documents_pick_document_type #content_inner ul {
+    columns: 3;
+}
+
 /*Edit Footer location only above 1200px*/
 @media only screen and (min-width: 1200px) {
 
@@ -409,6 +414,11 @@ option:hover {
     /*Documents Footer To Bottom*/
     #documents_index #nav {
         padding-bottom: 11.8em;
+    }
+
+    /*Pick Documents Footer To Bottom*/
+    #documents_pick_document_type #nav {
+        padding-bottom: 11.2em;
     }
 
     /*Login Footer to Bottom*/
@@ -514,6 +524,11 @@ option:hover {
 
     /*Documents Footer*/
     #documents_index #nav {
+        padding-bottom: 0em;
+    }
+
+    /*Pick Documents Footer*/
+    #documents_pick_document_type #nav {
         padding-bottom: 0em;
     }
 
