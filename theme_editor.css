@@ -398,6 +398,11 @@ option:hover {
     border-bottom: none;
 }
 
+/*Add box shadow to text area*/
+#documents_new #document_description {
+    box-shadow: 5px 5px #CCC;
+}
+
 /*Edit Footer location only above 1200px*/
 @media only screen and (min-width: 1200px) {
 
