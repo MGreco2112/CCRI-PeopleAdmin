@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 1/16/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 1/23/2024
 */
 
 /*Home Page*/
@@ -401,6 +401,20 @@ option:hover {
 /*Add box shadow to text area*/
 #documents_new #document_description {
     box-shadow: 5px 5px #CCC;
+}
+
+/*Reposition div on documents page*/
+#documents_index #content_inner {
+    padding-top: 1em;
+    padding-left: 1.5em;
+}
+
+/*Add spacing between elements within the main documents div*/
+#documents_index #content_inner h2,
+#documents_index #content_inner p,
+#documents_index #content_inner a {
+    padding-bottom: 1em;
+    border-bottom: none;
 }
 
 /*Edit Footer location only above 1200px*/
