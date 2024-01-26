@@ -484,6 +484,11 @@ option:hover {
     .fast-find ul li {
         margin-bottom: 1.5em;
     }
+
+    /*Decrease width on search button on Job Search*/
+    #postings_search .job-search {
+        min-width: 200px;
+    }
     
     /*Negate push for footer on bottom of page*/
     #contentWrapper .mainContent {
