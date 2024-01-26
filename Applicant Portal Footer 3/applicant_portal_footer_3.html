@@ -23,9 +23,10 @@ function positionFooter() {
 }
 
 function alterButtonStyle() {
-	document.getElementsByName("commit")[0].className = "btn";
+        const button = document.getElementsByName("commit")[0];
+	button.className = "btn";
+        button.value = "Update";
 }
-
 	
 if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
 	positionFooter();
