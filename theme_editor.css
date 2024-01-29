@@ -510,11 +510,6 @@ option:hover {
         table-layout: fixed;
     }
 
-    /*Shrink font size on labels to prevent overlap*/
-    #form_view table th {
-      font-size: 1.3rem;
-    }
-
     /*Move long links to next line, not off page*/
     #form_view table a {
       word-wrap: break-word;
