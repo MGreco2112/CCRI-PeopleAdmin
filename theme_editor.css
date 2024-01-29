@@ -398,12 +398,15 @@ option:hover {
     border-bottom: none;
 }
 
-/*Add box shadow to text area*/
-#documents_new #document_description {
-    box-shadow: 5px 5px #CCC;
+/*Increase padding bottom on Document Title input*/
+#documents_new #document_title {
+    margin-bottom: 1em;
 }
 
-/*add box shadow to typing document iFrame*/
+/*Add box shadow to input fields*/
+#documents_new #document_title,
+#documents_new #document_url,
+#documents_new #document_description,
 #documents_new #cke_document_body {
     box-shadow: 5px 5px #CCC;
 }
