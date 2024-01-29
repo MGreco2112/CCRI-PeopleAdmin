@@ -399,7 +399,8 @@ option:hover {
 }
 
 /*Increase padding bottom on Document Title input*/
-#documents_new #document_title {
+#documents_new #document_title,
+#documents_new #document_description {
     margin-bottom: 1em;
 }
 
