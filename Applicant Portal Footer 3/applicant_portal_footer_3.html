@@ -29,12 +29,16 @@ function alterButtonStyle() {
 }
 
 function updateApplyButton() {
+       let form;
+	
        if (document.getElementsByClassName("apply-to-job-form").length !== 0) {
-              const form = document.getElementsByClassName("apply-to-job-form")[0];
-              form.style.width = "15em"; 
+              form = document.getElementsByClassName("apply-to-job-form")[0];
        } else if (document.getElementsByClassName("secondary_button_color").length !== 0) {
-              const form = document.getElementsByClassName("secondary_button_color")[0];
-              form.style.width = "15em";
+              form = document.getElementsByClassName("secondary_button_color")[0];
+       }
+
+       if (form !== undefined) {
+              form.style.width = "15em"; 
        }
 }
 	
