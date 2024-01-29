@@ -403,6 +403,11 @@ option:hover {
     box-shadow: 5px 5px #CCC;
 }
 
+/*add box shadow to typing document iFrame*/
+#documents_new #cke_document_body {
+    box-shadow: 5px 5px #CCC;
+}
+
 /*Reposition div on documents page*/
 #documents_index #content_inner {
     padding-top: 1em;
