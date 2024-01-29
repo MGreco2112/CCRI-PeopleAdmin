@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 1/26/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 1/29/2024
 */
 
 /*Home Page*/
@@ -467,6 +467,11 @@ option:hover {
     /*Center header Logo*/
     #header .col-xs-12 {
         width: 50%;
+    }
+
+    /*decrease height of second text box*/
+    #pages_index .text-box-two {
+        height: 400px !important;
     }
     
     /*Increase button padding*/
