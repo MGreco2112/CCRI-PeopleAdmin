@@ -27,6 +27,16 @@ function alterButtonStyle() {
 	button.className = "btn";
         button.value = "Update";
 }
+
+function updateApplyButton() {
+       if (document.getElementsByClassName("apply-to-job-form").length !== 0) {
+              const form = document.getElementsByClassName("apply-to-job-form")[0];
+              form.style.width = "15em"; 
+       } else if (document.getElementsByClassName("secondary_button_color").length !== 0) {
+              const form = document.getElementsByClassName("secondary_button_color")[0];
+              form.style.width = "15em";
+       }
+}
 	
 if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
 	positionFooter();
@@ -34,5 +44,9 @@ if (document.getElementById("interest_cards_index") && window.screen.width >= 12
 
 if (document.getElementById("users_edit")) {
      alterButtonStyle();
+}
+
+if (document.getElementById("postings_show") && window.screen.width <= 768) {
+     updateApplyButton();
 }
 </script>
