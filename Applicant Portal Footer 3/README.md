@@ -14,7 +14,7 @@ Below you will find documentation regarding each of the JavaScript functions. Ea
 
 The positionFooter() function is used to force the footer to the bottom of the screen on the Job Alerts page. On all pages that need to force the Footer to the bottom of the page, the padding of the Nav Bar is extended to the top of where the Footer should be placed. Job Alerts is one of the few pages that can be visited while either logged out or in where the Footer is not already at the bottom of the page.
 
-The Function Call only executes on the Job Alerts page, which is checked in the first condition above the function call `if (document.getElementById("interest_cards_index"))`. The second condition `window.screen.width >= 1200` causes the footer function to not be called in mobile resolution.
+The Function Call only executes on the Job Alerts page, which is checked in the first condition above the function call `if (document.getElementById("interest_cards_index") && `. The second condition `window.screen.width >= 1200)` causes the footer function to not be called in mobile resolution.
 
 The function's first priority is to determine if the user is logged in or not. This is done by checking the Nav Bar and counting the number of elements contained within. If the number of NavLink elements is less than 8, the user is not logged in. 
 
@@ -38,7 +38,7 @@ Within the function a named constant, button, is declared and assigned the value
 
 For the Responsive Mobile View of the site, the Apply to this Job button on the Job Description page is noticably thinner than the other two buttons. The button exists as two different HTML elements depending if the user is logged in or not, so this function will identify which element exists and modify that one accordingly.
 
-The conditional above the function call contains two statements. The first, `if (document.getElementById("postings_show"))`, results in true if the user is on the job description page. The second, `window.screen.width <= 768`, only results in true on mobile resolutions.
+The conditional above the function call contains two statements. The first, `if (document.getElementById("postings_show") && `, results in true if the user is on the job description page. The second, `window.screen.width <= 768)`, only results in true on mobile resolutions.
 
 Within the function a variable is declared for the element to be updated. When logged in the element is a Form, when logged out the element is an A Tag. The variable is named form in this instance. Next is a conditional to identify which button exists. Neither element has an id property, so the conditional checks for the class name. `if (document.getElementsByClassName("apply-to-job-form").length !== 0)` checks if there are any elements on the page with that name, which is the element that exists if a user is logged in. If this returns true, that form element is assigned to the form variable with `form = document.getElementsByClassName("apply-to-job-form")[0]`. If that returns false another conditional is checked, `if (document.getElementsByClassName("secondary_button_color").length !== 0)`, which checks for any elements that exist if the user is not logged in. If this results in true then the form variable is updated to `form = document.getElementsByClassName("secondary_button_color")[0]`. Finally, if form variable is not undefined (`if (form !== undefined)`), meaning that one of those if statements resulted in true, the width property is modified with `form.style.width = "15em"`
 
