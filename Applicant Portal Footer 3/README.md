@@ -10,7 +10,7 @@ Below you will find documentation regarding each of the JavaScript functions. Ea
 
 ## Functions
 
-### Position Footer
+### positionFooter()
 
 The positionFooter() function is used to force the footer to the bottom of the screen on the Job Alerts page. On all pages that need to force the Footer to the bottom of the page, the padding of the Nav Bar is extended to the top of where the Footer should be placed. Job Alerts is one of the few pages that can be visited while either logged out or in where the Footer is not already at the bottom of the page.
 
@@ -26,7 +26,7 @@ The function then selects the Nav Bar and accesses its Padding Bottom property w
 
 
 
-### Alter Button style
+### alterButtonStyle()
 
 PeopleAdmin's default styling had the classes for the Account Settings and Demographic Information's Submit Button set differently, which was noticable and inconsistent. This function simply capiitalizes the U in Update for the button label and changes the class name of the element so the CSS rules can be properly assigned.
 
@@ -34,7 +34,7 @@ The conditional above the function call will result in true if the user is on th
 
 Within the function a named constant, button, is declared and assigned the value of `document.getElementsByName("commit")[0]`. PeopleAdmin did not give theis button an id property, so it must be accessed through a list of Node Objects. Fortunately there is only one element with the name commit on the page, so index 0 will work each time. The class name of button is updated to `"btn"` to apply the CSS rules for that class using `button.className = "btn"`. The label of the button is updated to "Update" using `button.value = "Update"`.
 
-### Update Apply Button
+### updateApplyButton()
 
 For the Responsive Mobile View of the site, the Apply to this Job button on the Job Description page is noticably thinner than the other two buttons. The button exists as two different HTML elements depending if the user is logged in or not, so this function will identify which element exists and modify that one accordingly.
 
