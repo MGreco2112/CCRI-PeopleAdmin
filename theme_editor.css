@@ -604,4 +604,9 @@ option:hover {
     #job_applications_index .job-application-list {
         margin-bottom: 1em;
     }
+
+    /*increase gap between btn and footer on users edit*/
+    #users_edit .btn {
+        margin-bottom: 1em;
+    }
 }
