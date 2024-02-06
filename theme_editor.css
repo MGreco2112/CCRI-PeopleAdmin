@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 1/31/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 2/6/2024
 */
 
 /*Home Page*/
@@ -593,5 +593,10 @@ option:hover {
     /*Bookmarks delete Footer to Bottom*/
     #bookmarks_delete #content {
         padding-bottom: 4.3em;
+    }
+
+    /*push login page footer further down*/
+    #sessions_new .create-account-link {
+        margin-bottom: 1em;
     }
 }
