@@ -555,37 +555,13 @@ option:hover {
         margin-bottom: 3em;
     }
 
-        /*Job Alerts Footer*/
-    #interest_cards_index #nav {
-        padding-bottom: 0em;
-    }
-
-    /*Bookmarked Postings Footer*/
-    #bookmarks_index #nav {
-        padding-bottom: 0em;
-    }
-
-    /*Applications Footer*/
-    #job_applications_index #nav {
-        padding-bottom: 0em;
-    }
-
-    /*Documents Footer*/
-    #documents_index #nav {
-        padding-bottom: 0em;
-    }
-
-    /*Pick Documents Footer*/
-    #documents_pick_document_type #nav {
-        padding-bottom: 0em;
-    }
-
-    /*Login Footer*/
-    #sessions_new #nav {
-      padding-bottom: 0em;
-    }
-
-    /*Documents Upload Footer*/
+    /*Nav Padding reset for footer*/
+    #interest_cards_index #nav,
+    #bookmarks_index #nav,
+    #job_applications_index #nav,
+    #documents_pick_document_type #nav,
+    #documents_index #nav,
+    #sessions_new #nav,
     #documents_new #nav {
         padding-bottom: 0em;
     }
