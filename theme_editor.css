@@ -599,4 +599,9 @@ option:hover {
     #sessions_new .create-account-link {
         margin-bottom: 1em;
     }
+
+    /*Increase element gap between Footer on Applications*/
+    #job_applications_index .job-application-list {
+        margin-bottom: 1em;
+    }
 }
