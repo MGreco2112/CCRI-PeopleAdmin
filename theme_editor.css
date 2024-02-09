@@ -525,11 +525,8 @@ option:hover {
     }
 
     /*Move long links to next line, not off page*/
-    #form_view table a {
-      word-wrap: break-word;
-    }
-
     /*Move long strings to next line*/
+    #form_view table a,
     #form_view table td {
       word-wrap: break-word;
     }
