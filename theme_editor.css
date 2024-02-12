@@ -578,4 +578,9 @@ option:hover {
     #users_edit .btn {
         margin-bottom: 1em;
     }
+
+    /*Job Postings padding between items*/
+    #postings_show li {
+        margin-bottom: 1em;
+    }
 }
