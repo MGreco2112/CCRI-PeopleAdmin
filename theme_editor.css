@@ -122,16 +122,12 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 2/6/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 2/12/2024
 */
 
 /*Home Page*/
-.text-box-one {
-    background-color: #E1E1E1;
-    border: 1px solid #CCC;
-}
-
-.text-box-two {
+.text-box-one,
+.test-box-two {
     background-color: #E1E1E1;
     border: 1px solid #CCC;
 }
