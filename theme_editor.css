@@ -581,6 +581,6 @@ option:hover {
 
     /*Job Postings padding between items*/
     #postings_show li {
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
 }
