@@ -587,6 +587,8 @@ option:hover {
     /*text format Postings padding between items*/
     #postings_show table td div br {
         margin-bottom: 0.5em;
+        display: block;
+        content: " ";
     }
 
     /*Demographic and Settings button size*/
