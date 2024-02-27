@@ -32,7 +32,7 @@ PeopleAdmin's default styling had the classes for the Account Settings and Demog
 
 The conditional above the function call will result in true if the user is on the Edit Account Settings page. `if (document.getElementById("users_edit"))`.
 
-Within the function a named constant, button, is declared and assigned the value of `document.getElementsByName("commit")[0]`. PeopleAdmin did not give theis button an id property, so it must be accessed through a list of Node Objects. Fortunately there is only one element with the name commit on the page, so index 0 will work each time. The class name of button is updated to `"btn"` to apply the CSS rules for that class using `button.className = "btn"`. The label of the button is updated to "Update" using `button.value = "Update"`.
+Within the function a named constant, button, is declared and assigned the value of `document.getElementsByName("commit")[0]`. PeopleAdmin did not give this button an id property, so it must be accessed through a list of Node Objects. Fortunately there is only one element with the name commit on the page, so index 0 will work each time. If the value stored within the chosen variable isn't undefined, the class name of button is updated to `"btn"` to apply the CSS rules for that class using `button.className = "btn"`. The label of the button is updated to "Update" using `button.value = "Update"`.
 
 ### updateApplyButton()
 
