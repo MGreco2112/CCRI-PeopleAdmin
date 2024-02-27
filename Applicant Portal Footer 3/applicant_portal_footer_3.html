@@ -24,8 +24,11 @@ function positionFooter() {
 
 function alterButtonStyle() {
         const button = document.getElementsByName("commit")[0];
-	button.className = "btn";
-        button.value = "Update";
+
+	if (button != undefined) {
+		button.className = "btn";
+	        button.value = "Update";
+	}
 }
 
 function updateApplyButton() {
