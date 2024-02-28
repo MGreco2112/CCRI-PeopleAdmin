@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 2/26/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 2/28/2024
 */
 
 /*Home Page*/
@@ -585,13 +585,7 @@ option:hover {
     }
 
     /*text format Postings padding between items*/
-    #postings_show table td div br {
-        margin-bottom: 0.5em;
-        display: block;
-        content: " ";
-    }
-    
-    /*text format Postings padding between items for p tags*/
+    #postings_show table td div br,
     #postings_show table td p br {
         margin-bottom: 0.5em;
         display: block;
