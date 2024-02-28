@@ -590,6 +590,13 @@ option:hover {
         display: block;
         content: " ";
     }
+    
+    /*text format Postings padding between items for p tags*/
+    #postings_show table td p br {
+        margin-bottom: 0.5em;
+        display: block;
+        content: " ";
+    }
 
     /*Demographic and Settings button size*/
     #user_applicant_details_edit .btn,
