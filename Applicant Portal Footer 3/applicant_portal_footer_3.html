@@ -31,6 +31,14 @@ function alterButtonStyle() {
 	}
 }
 
+function updateButtonName() {
+	const button = document.getElementsByName("commit")[0];
+
+	if (button !== undefined) {
+		button.value = "Save Changes";
+	}
+}
+
 function updateApplyButton() {
        let form;
 	
@@ -51,6 +59,10 @@ if (document.getElementById("interest_cards_index") && window.screen.width >= 12
 
 if (document.getElementById("users_edit")) {
      alterButtonStyle();
+}
+
+if (document.getElementById("user_applicant_details_edit")) {
+	updateButtonName();
 }
 
 if (document.getElementById("postings_show") && window.screen.width <= 768) {
