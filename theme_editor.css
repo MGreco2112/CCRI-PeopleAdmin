@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 3/4/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 4/4/2024
 */
 
 /*Home Page*/
@@ -334,6 +334,11 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 3/4/2024
 /*segment elements within job listing*/
 #form_view td {
     border-bottom: 1px solid #CCC;
+}
+
+/*Increase padding below each LI*/
+#postings_show li {
+    padding-bottom: 0.25em;
 }
 
 /*Job Alerts*/
