@@ -122,7 +122,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 4/4/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 6/4/2024
 */
 
 /*Home Page*/
@@ -279,6 +279,11 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 4/4/2024
 /*remove green dots from below orange icon*/
 .pad-left a {
     border-bottom: none;
+}
+
+/*Reduce size of position type options element*/
+#postings_search #query_position_type_id {
+    height: 5.5em;
 }
 
 /*Navbar*/
