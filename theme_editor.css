@@ -436,6 +436,15 @@ option:hover {
     border-bottom: none;
 }
 
+/*Remove excessive adding on radio buttons label*/
+#user_applicant_details_edit .radio {
+    padding-left: 6px
+}
+
+#user_applicant_details_edit .radio label {
+    padding-left: 0px;
+}
+
 /*Edit Footer location only above 1200px*/
 @media only screen and (min-width: 1200px) {
 
