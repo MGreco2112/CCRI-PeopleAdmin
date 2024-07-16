@@ -37,6 +37,7 @@ h3.text-box-title {
     box-shadow: none;
 }
 
+/*Hides Text Boxes 3 & 4 on Homepage*/
 #content_inner > section.section.section-default.text-box > div:nth-child(2) {
     display: none;
 }
@@ -122,13 +123,20 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 7/15/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 7/16/2024
 */
 
 /*Home Page*/
 .text-box-one,
 .text-box-two {
     background-color: #E1E1E1;
+    border: 1px solid #CCC;
+}
+
+/*Text Boxes 3 and 4*/
+.text-box-three,
+.text-box-four {
+    min-height: 20em;
     border: 1px solid #CCC;
 }
 
