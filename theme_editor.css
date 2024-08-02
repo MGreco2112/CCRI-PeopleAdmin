@@ -123,7 +123,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 7/16/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 8/2/2024
 */
 
 /*Home Page*/
@@ -360,6 +360,21 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 7/16/2024
 form.formtastic abbr {
     text-decoration: none;
     border-bottom: none;
+}
+
+/*Buttons*/
+#interest_cards_index input[type="submit"] {
+     border-color: #ccc;
+}
+
+#interest_cards_index .unsubscribe_button {
+     background-color: #ccc;
+     color: #041237;
+}
+
+#interest_cards_index .subscribe_button {
+     background-color: #ccc;
+     color: #333333;
 }
 
 /*Search Bar*/
