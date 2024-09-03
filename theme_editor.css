@@ -218,6 +218,11 @@ to the needs of CCRI's portal*/
     background-color: #f0f0f0f0;
 }
 
+/*Add dropshadow to Text Areas*/
+#job_applications_edit textarea {
+    box-shadow: 5px 5px #CCC;
+}
+
 /*Posting Details Page*/
 #posting-action-links .btn {
     min-width: auto;
