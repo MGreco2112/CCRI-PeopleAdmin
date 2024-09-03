@@ -202,16 +202,20 @@ Customization for CCRI HR by Matthew Greco. Latest Update on 9/3/2024
     content: "\f02e" " ";
 }
 
+/*Hide button to collapse search filters*/
+/*Hiding because on lower resolutions it overlaps other elements
+and I have deemed it an unnecessary addition by PeopleAdmin platform
+to the needs of CCRI's portal*/
+#postings_search .button-section {
+    visibility: hidden;
+}
 
 /*Posting Details Page*/
-
 #posting-action-links .btn {
     min-width: auto;
 }
 
 /*Footer*/
-
-
 /*For social media buttons*/
 #footer .col-lg-4 {
     text-align: center;
