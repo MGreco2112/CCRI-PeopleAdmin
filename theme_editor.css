@@ -210,6 +210,14 @@ to the needs of CCRI's portal*/
     visibility: hidden;
 }
 
+/*Application Posting Page*/
+
+/*uniform button styling on Check Information button*/
+#job_applications_edit .col-lg-12 a {
+    color: black;
+    background-color: #f0f0f0f0;
+}
+
 /*Posting Details Page*/
 #posting-action-links .btn {
     min-width: auto;
