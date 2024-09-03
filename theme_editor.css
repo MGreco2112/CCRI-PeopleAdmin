@@ -223,6 +223,11 @@ to the needs of CCRI's portal*/
     box-shadow: 5px 5px #CCC;
 }
 
+/*Hide redundant top nav bar section*/
+#job_applications_edit .hidden-if-no-js {
+    visibility: hidden !important;;
+}
+
 /*Posting Details Page*/
 #posting-action-links .btn {
     min-width: auto;
