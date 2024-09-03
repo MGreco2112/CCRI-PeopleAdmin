@@ -52,11 +52,6 @@ function updateApplyButton() {
               form.style.width = "15em"; 
        }
 }
-
-function hideTopNav() {
-	const formTab = document.getElementsByClassName("form_tab_nav")[0];
-	formTab.style.visibility = "hidden";
-}
 	
 if (document.getElementById("interest_cards_index") && window.screen.width >= 1200) {
 	positionFooter();
@@ -74,7 +69,4 @@ if (document.getElementById("postings_show") && window.screen.width <= 768) {
      updateApplyButton();
 }
 
-if (document.getElementById("job_applications_edit") && document.getElementsByClassName("form_tab_nav")) {
-	hideTopNav()
-}
 </script>
