@@ -123,7 +123,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 9/4/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 9/25/2024
 */
 
 /*Home Page*/
@@ -210,6 +210,11 @@ to the needs of CCRI's portal*/
     visibility: hidden;
 }
 
+/*Hide redundant top nav bar section*/
+#job_applications_edit .hidden-if-no-js {
+    visibility: hidden !important;;
+}
+
 /*Application Posting Page*/
 
 /*uniform button styling on Check Information button*/
@@ -223,22 +228,20 @@ to the needs of CCRI's portal*/
     box-shadow: 5px 5px #CCC;
 }
 
-/*Hide redundant top nav bar section*/
-#job_applications_edit .hidden-if-no-js {
-    visibility: hidden !important;;
-}
-
 /*Button Width on Applicant Documents page*/
 #job_applications_edit #layout_tabs .containers a {
     min-width: 23.3em;
 }
 
 /*Posting Details Page*/
+
 #posting-action-links .btn {
     min-width: auto;
 }
 
 /*Footer*/
+
+
 /*For social media buttons*/
 #footer .col-lg-4 {
     text-align: center;
@@ -454,6 +457,8 @@ option:hover {
     border-bottom: none;
 }
 
+/*Documents New*/
+
 /*Increase padding bottom on Document Title input*/
 #documents_new #document_title,
 #documents_new #document_description {
@@ -466,6 +471,11 @@ option:hover {
 #documents_new #document_description,
 #documents_new #cke_document_body {
     box-shadow: 5px 5px #CCC;
+}
+
+/*Change color of resize Unicode character*/
+#documents_new #cke_1_resizer {
+    border-color: transparent #1F1F1F transparent transparent;
 }
 
 /*Reposition div on documents page*/
@@ -504,24 +514,24 @@ option:hover {
         padding-bottom: 11.8em;
     }
 
-    /*Documents Footer To Bottom*/
-    #documents_index #nav {
-        padding-bottom: 11.8em;
-    }
-
     /*Pick Documents Footer To Bottom*/
     #documents_pick_document_type #nav {
         padding-bottom: 11.2em;
     }
 
-    /*Pick Documents Page selection in columns*/
-    #documents_pick_document_type #content_inner ul {
-        columns: 3;
-    }
+     /*Pick Documents Page selection in columns*/
+     #documents_pick_document_type #content_inner ul {
+         columns: 3;
+     }
 
     /*Increased padding on top and bottom of li elements*/
     #documents_pick_document_type #content ul li {
         padding: 30px 0px 30px 0px !important;
+    }
+
+    /*Documents Footer To Bottom*/
+    #documents_index #nav {
+        padding-bottom: 11.8em;
     }
 
     /*Login Footer to Bottom*/
@@ -568,15 +578,15 @@ option:hover {
     .fast-find ul li {
         margin-bottom: 1.5em;
     }
-
-    /*Decrease width on search button on Job Search*/
-    #postings_search .job-search {
-        min-width: 200px;
-    }
     
     /*Negate push for footer on bottom of page*/
     #contentWrapper .mainContent {
         padding-bottom: 0%;
+    }
+
+    /*Decrease width on search button on Job Search*/
+    #postings_search .job-search {
+        min-width: 200px;
     }
 
      /*Remove border from job posting due to content overflow*/
@@ -635,7 +645,7 @@ option:hover {
 
     /*push login page footer further down*/
     #sessions_new .create-account-link {
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
     }
 
     /*Increase element gap between Footer on Applications*/
@@ -643,16 +653,20 @@ option:hover {
         margin-bottom: 1em;
     }
 
+    /*increase gap between btn and footer on documents*/
+    #documents_new .btn-primary {
+        margin-bottom: 1em;
+    }
+
     /*increase gap between btn and footer on users edit*/
     #users_edit .btn {
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
     }
 
     /*Job Postings padding between items*/
     #postings_show table li {
         margin-bottom: 0.5em;
     }
-
 
     /*Demographic and Settings button size*/
     #user_applicant_details_edit .btn,
