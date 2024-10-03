@@ -123,7 +123,7 @@ tbody p {
 }
 
 /*
-Customization for CCRI HR by Matthew Greco. Latest Update on 9/25/2024
+Customization for CCRI HR by Matthew Greco. Latest Update on 10/3/2024
 */
 
 /*Home Page*/
@@ -231,6 +231,11 @@ to the needs of CCRI's portal*/
 /*Button Width on Applicant Documents page*/
 #job_applications_edit #layout_tabs .containers a {
     min-width: 23.3em;
+}
+
+/*Width of TextAreas in line with other fields*/
+#job_applications_edit textarea {
+    width: 70%;
 }
 
 /*Posting Details Page*/
