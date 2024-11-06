@@ -14,7 +14,7 @@ Below you will find documentation regarding each of the JavaScript functions. Ea
 
 The positionFooter() function is used to force the footer to the bottom of the screen on the Job Alerts page. On all pages that need to force the Footer to the bottom of the page, the padding of the Nav Bar is extended to the top of where the Footer should be placed. Job Alerts is one of the few pages that can be visited while either logged out or in where the Footer is not already at the bottom of the page.
 
-The Function Call only executes on the Job Alerts page, which is checked in the first condition above the function call `if (document.getElementById("interest_cards_index") && `. The second condition `window.screen.width >= 1200)` causes the footer function to not be called in mobile resolution.
+The first condition `document.getElementById("content_inner")` will cause the function to only be called on pages that have content to display. The second condition `window.screen.width >= 1200)` causes the footer function to not be called in mobile resolution. This does not impact the footer placement on pages that have enough content to push the footer naturally, only pages that would cause the footer to float.
 
 The function's first priority is to determine if the user is logged in or not. This is done by checking the Nav Bar and counting the number of elements contained within. If the number of NavLink elements is less than 8, the user is not logged in. 
 
