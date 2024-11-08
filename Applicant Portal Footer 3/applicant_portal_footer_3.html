@@ -52,6 +52,13 @@ function updateApplyButton() {
               form.style.width = "15em"; 
        }
 }
+
+function hideTopNav() {
+     if (document.getElementsByClassName("form_tab_nav_top").length !== 0) {
+          const nav = document.getElementsByClassName("form_tab_nav_top")[0];
+          nav.hidden = true;
+     }
+}
 	
 if (document.getElementById("content_inner") && window.screen.width >= 1200) {
 	positionFooter();
@@ -67,6 +74,10 @@ if (document.getElementById("user_applicant_details_edit")) {
 
 if (document.getElementById("postings_show") && window.screen.width <= 768) {
      updateApplyButton();
+}
+
+if (document.getElementById("job_applications_edit")) {
+     hideTopNav();
 }
 
 </script>
