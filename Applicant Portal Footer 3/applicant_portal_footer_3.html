@@ -59,6 +59,25 @@ function hideTopNav() {
           nav.hidden = true;
      }
 }
+
+function hideEmptyJobDescriptionFields() {
+     const forms = document.getElementsByClassName("form_container");
+
+     for (i = 0; i < forms.length; i++) {
+          const table = forms[i].childNodes[3];
+	     
+          if (table.rows) {
+		  
+               for (j = 0; j < table.rows.length; j++) {
+                    const cell = table.rows[j];
+		       
+                    if (cell.cells[1].innerHTML === "") {
+                         cell.hidden = true;
+                    }
+               }
+          }
+     }
+}
 	
 if (document.getElementById("content_inner") && window.screen.width >= 1200) {
 	positionFooter();
@@ -78,6 +97,10 @@ if (document.getElementById("postings_show") && window.screen.width <= 768) {
 
 if (document.getElementById("job_applications_edit")) {
      hideTopNav();
+}
+
+if (document.getElementById("postings_show")) {
+     hideEmptyJobDescriptionFields();
 }
 
 </script>
