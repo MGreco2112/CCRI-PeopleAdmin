@@ -69,10 +69,10 @@ function hideEmptyJobDescriptionFields() {
           if (table.rows) {
 		  
                for (j = 0; j < table.rows.length; j++) {
-                    const cell = table.rows[j];
+                    const row = table.rows[j];
 		       
-                    if (cell.cells[1].innerHTML === "") {
-                         cell.hidden = true;
+                    if (row.cells[1].innerHTML === "") {
+                         row.hidden = true;
                     }
                }
           }
