@@ -409,8 +409,7 @@ form.formtastic abbr {
 }
 
 #interest_cards_index .unsubscribe_button:hover {
-     color: #ffffff !important;
-     background-color #ccc !important;
+     background-color: #ccc !important;
 }
 
 /*Search Bar*/
